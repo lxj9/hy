@@ -1,0 +1,133 @@
+/*头部*/
+body{
+			width: 16rem;
+}
+.top{
+	width: 16rem;
+	height: 3.125rem;
+	background-color: green;
+	position: relative;
+	position: fixed;
+	z-index: 5;
+}
+.top .i1{
+	margin-top: 1.25rem;
+	margin-left: 1.4rem;
+	background-color: rgba(255,255,255,.2);
+	font-size: 0.66rem;
+	width: 13rem;
+	height: 1.4rem;
+	text-align: center;
+}
+ input::-webkit-input-placeholder {
+ 	color: #fff;
+}
+.icon-fangdajing{
+	position: absolute;
+	left:5rem; top:1.55rem;
+	color: white;
+}
+/*内容*/
+.content{
+	 position: relative;
+	 left: 0rem;
+	 top: 3.125rem;
+}
+.content .left ul{
+}
+.content .left ul li{
+	height: 1.875rem;
+	line-height: 1.875rem;
+  width: 3.75rem;
+  font-size: 0.7rem;
+  text-align: center;
+  background-color: #ccc;
+  border-left: 0.125rem solid #ccc;
+}
+.left ul li a{
+	color: black;
+}
+.left ul li:hover{
+	background-color: #fff;
+	border-left: 0.125rem solid green;
+}
+.heng{
+	position: fixed;
+	left: 3.8rem;
+	top: 3.4rem;
+	height: 1.6rem;
+}
+.heng li{
+	width: 3.5rem;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	background-color: #ccc;
+	float: left;
+	text-align: center;
+	font-size: 0.5rem;
+	margin-left: 0.2rem;
+	border-radius: 0.3rem;
+}
+.heng a:hover{
+	color: green;
+}
+.heng li a{
+	color: black;
+}
+.heng .p1{
+	position: absolute;
+	left: 0.6rem;
+	top: 1.3rem;
+	font-size: 0.6rem;
+}
+.heng .l1{
+	width: 0.3rem;
+	background-color: white;
+	position: absolute;
+	left:11rem;
+}
+.tu {
+	position: fixed;
+/*	position: absolute;*/
+	top:6rem;
+	left: 4rem;
+}
+.tu ul li img{
+	width: 6rem;
+	height: 4rem;
+}
+.tu li{
+	width: 11rem;
+	margin-bottom: 0.8rem;
+	position: relative;
+}
+.icon{
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  position: absolute;
+  right: 0.01rem;
+  bottom:0rem;
+}
+/*底部*/
+.bottom{
+	height: 2.5rem;
+	width: 16rem;
+	background-color:#ECECEC;
+	position: fixed;
+	bottom: 0rem;
+	left: 0rem;
+}
+.bottom ul li{
+	float: left;
+	margin: 0rem 1rem;
+}
+.bottom ul li span{
+	font-size: 1.2rem;
+	line-height: 2.5rem;
+}
+.bottom ul li a{
+	color: black;
+}

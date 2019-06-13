@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>花语</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<link rel="stylesheet" href="font2/iconfont.css">
+	<script src="font/iconfont.js"></script>
+</head>
+<body>
+	<script>
+       	 window.onload = window.onresize = function(){
+           	 var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+           	 var _html = document.getElementsByTagName('html')[0];
+            	view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+       	 }
+	</script>
+	<div class="box">
+			<div class="top">
+				 <input type="text" name="" placeholder="搜索商品名称" class="i1">
+				 <span class="iconfont icon-fangdajing"></span>
+			</div>
+			<div class="content">
+						<div class="left">
+							<ul>
+								<li onclick="mei()"><a href="###">玫瑰</a></li>
+								<li onclick="ding()"><a href="###">丁香 </a></li>
+								<li onclick="bai()"><a href="###">百合</a></li>
+								<li onclick="yue()"><a href="###">月季</a></li>
+								<li onclick="kang()"><a href="###">康乃馨</a></li>
+								<li onclick="lan()"><a href="###">兰花</a></li>
+								<li onclick="mu()"><a href="###">牡丹</a></li>
+								<li onclick="meih()"><a href="###">梅花</a></li>
+								<li onclick="mei()"><a href="###">玫瑰</a></li>
+								<li onclick="ding()"><a href="###">丁香 </a></li>
+								<li onclick="bai()"><a href="###">百合</a></li>
+								<li onclick="yue()"><a href="###">月季</a></li>
+								<li onclick="kang()"><a href="###">康乃馨</a></li>
+								<li onclick="lan()"><a href="###">兰花</a></li>
+								<li onclick="mu()"><a href="###">牡丹</a></li>
+								<li onclick="meih()"><a href="###">梅花</a></li>
+								<li onclick="lan()"><a href="###">兰花</a></li>
+								<li onclick="mu()"><a href="###">牡丹</a></li>
+								<li onclick="meih()"><a href="###">梅花</a></li>
+								<li onclick="mei()"><a href="###">玫瑰</a></li>
+							</ul>
+						</div>
+						<div class="heng">
+						<ul>
+							<li onclick="wd()"><a href="###">味道</a></li>
+							<li onclick="ys()"><a href="###">颜色</a></li>
+							<li onclick="jq()"><a href="###">价钱</a></li>
+							<li class="l1"><span class="iconfont icon-arrow"></span></li>
+						</ul>
+						<p class="p1" id="p1">请选择</p>
+					</div>
+						<div class="tu"> 
+							<ul>
+								<li><img src="images/1.jpg" id="t1">
+								<a href="###"><svg class="icon" aria-hidden="true">
+  								<use xlink:href="#icon-gouwuche"></use>
+  							</svg></a>
+								</li>
+								<li><img src="images/1.jpg" id="t2">
+								<a href="###"><svg class="icon" aria-hidden="true">
+  								<use xlink:href="#icon-gouwuche"></use>
+  							</svg></a>
+								<li><img src="images/1.jpg" id="t3">
+								<a href="###"><svg class="icon" aria-hidden="true">
+  								<use xlink:href="#icon-gouwuche"></use>
+  							</svg></a>
+								<li><img src="images/1.jpg" id="t4">
+								<a href="###"><svg class="icon" aria-hidden="true">
+  								<use xlink:href="#icon-gouwuche"></use>
+  							</svg></a>
+								<li><img src="images/1.jpg" id="t5">
+								<a href="###"><svg class="icon" aria-hidden="true">
+  								<use xlink:href="#icon-gouwuche"></use>
+  							</svg></a>
+							</ul>
+						</div>
+			</div>
+			<div class="bottom">
+				<ul>
+					<li><a href="###"><span class="iconfont icon-index-copy"></span></a></li>
+					<li><a href="###"><span class="iconfont icon-yingyong"></span></a></li>
+					<li><a href="###"><span class="iconfont icon-gouwuche"></span></a></li>
+					<li><a href="###"><span class="iconfont icon-bao"></span></a></li>
+					<li><a href="###"><span class="iconfont icon-renwu"></span></a></li>
+				</ul>
+			</div>
+	</div>
+	<script type="text/javascript">
+		function wd(){
+			document.getElementById('p1').innerHTML="味道"
+		}
+		function ys(){
+			document.getElementById('p1').innerHTML="颜色"
+		}
+		function jq(){
+			document.getElementById('p1').innerHTML="价钱"
+		}
+		function mei(){
+			document.getElementById('t1').src="images/1.jpg";
+			document.getElementById('t2').src="images/1.jpg";
+			document.getElementById('t3').src="images/1.jpg";
+			document.getElementById('t4').src="images/1.jpg";
+			document.getElementById('t5').src="images/1.jpg";
+		}
+		function ding(){
+			document.getElementById('t1').src="images/timg.jpg";
+			document.getElementById('t2').src="images/timg.jpg";
+			document.getElementById('t3').src="images/timg.jpg";
+			document.getElementById('t4').src="images/timg.jpg";
+			document.getElementById('t5').src="images/timg.jpg";
+
+		}
+		function bai(){
+			document.getElementById('t1').src="images/3.jpg";
+			document.getElementById('t2').src="images/3.jpg";
+			document.getElementById('t3').src="images/3.jpg";
+			document.getElementById('t4').src="images/3.jpg";
+			document.getElementById('t5').src="images/3.jpg";
+		}
+		function yue(){
+			document.getElementById('t1').src="images/4.jpg";
+			document.getElementById('t2').src="images/4.jpg";
+			document.getElementById('t3').src="images/4.jpg";
+			document.getElementById('t4').src="images/4.jpg";
+			document.getElementById('t5').src="images/4.jpg";
+		}
+		function kang(){
+			document.getElementById('t1').src="images/5.jpg";
+			document.getElementById('t2').src="images/5.jpg";
+			document.getElementById('t3').src="images/5.jpg";
+			document.getElementById('t4').src="images/5.jpg";
+			document.getElementById('t5').src="images/5.jpg";
+		}
+		function lan(){
+			document.getElementById('t1').src="images/6.jpg";
+			document.getElementById('t2').src="images/6.jpg";
+			document.getElementById('t3').src="images/6.jpg";
+			document.getElementById('t4').src="images/6.jpg";
+			document.getElementById('t5').src="images/6.jpg";
+		}
+		function mu(){
+			document.getElementById('t1').src="images/7.jpg";
+			document.getElementById('t2').src="images/7.jpg";
+			document.getElementById('t3').src="images/7.jpg";
+			document.getElementById('t4').src="images/7.jpg";
+			document.getElementById('t5').src="images/7.jpg";
+		}
+		function meih(){
+			document.getElementById('t1').src="images/8.jpg";
+			document.getElementById('t2').src="images/8.jpg";
+			document.getElementById('t3').src="images/8.jpg";
+			document.getElementById('t4').src="images/8.jpg";
+			document.getElementById('t5').src="images/8.jpg";
+		}
+	</script>
+</body>
+</html>
